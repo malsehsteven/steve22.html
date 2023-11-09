@@ -76,13 +76,13 @@ header h1{
 }
 
 .ski h1{
-    font-size: 50px;
+    font-size: 36px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .ski ul li{
-    font-size: 45px;
+    font-size: 24px;
     margin-left: 150px;
 }
 
@@ -94,11 +94,11 @@ header h1{
 
 .ach h2{
     color: red;
-    font-size: 50px;
+    font-size: 36px;
 }
 
 .ach ul p{
-    font-size: 45px;
+    font-size: 24px;
     margin: 10px;
 }
 
@@ -210,4 +210,85 @@ header h1{
 
 .about-content a:hover{
     color: red;
+}
+
+.contact{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.cont{
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.cont h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: o o 8px #bbb;
+}
+
+button{
+    display: inline;
+    padding: 12px 24px;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-info{
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+}
+
+.contact-info h3{
+    font-size: 24px;
+}
+
+.contact-info p{
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
