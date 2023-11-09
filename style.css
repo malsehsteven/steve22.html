@@ -292,3 +292,23 @@ button{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+footer.media{
+    margin: 20px 10px;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    width: 2opx;
+}
+
+footer.media img{
+    margin: 40px;
+    height: 50px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+footer.media a img:hover{
+    color: blue;
+}
